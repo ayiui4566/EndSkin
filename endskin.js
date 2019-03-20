@@ -25,7 +25,7 @@ function EndSkin(tmpId)
 
 	this.templateReader = function(f,cb)
 	{
-		var file = RootPath+f;
+		var file = f;
 		return fs.readFileSync(file,'utf-8');
 	}
 	
